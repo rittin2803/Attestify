@@ -1,0 +1,36 @@
+{
+  "name": "ethindia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereum-attestation-service/eas-contracts": "^1.8.0",
+    "@ethereum-attestation-service/eas-sdk": "^2.7.0",
+    "@lit-protocol/auth-helpers": "^6.11.1",
+    "@lit-protocol/constants": "^6.11.1",
+    "@lit-protocol/lit-node-client": "^6.11.1",
+    "chalk": "^5.3.0",
+    "ethers": "^6.13.4",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.1.0",
+    "json-stringify-pretty-compact": "^4.0.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@lit-protocol/types": "^6.11.2",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
